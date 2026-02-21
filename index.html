@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .header {
+            background: grey;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .info-section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: #667eea;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 8px;
+        }
+
+        .info-content {
+            color: #333;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+
+        .info-content p {
+            margin-bottom: 8px;
+        }
+
+        .label {
+            font-weight: 600;
+            color: #667eea;
+            display: inline-block;
+            min-width: 140px;
+        }
+
+        .value {
+            color: #555;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <div class="name">RICHARD BORONGAN SUNGCAD</div>
+        </div>
+
+        <div class="content">
+            <!-- Address Section -->
+            <div class="info-section">
+                <div class="section-title">📍 Address</div>
+                <div class="info-content">
+                    <p>Purok Lower Bagong Silang, Balangasan District,</p>
+                    <p>Pagadian City, Zamboanga del Sur</p>
+                   
+                </div>
+            </div>
+
+            <!-- Work Section -->
+            <div class="info-section">
+                <div class="section-title">💼 Work</div>
+                <div class="info-content">
+                    <p><span class="label">Position:</span> <span class="value">Teacher I</span></p>
+                    <p><span class="label">School:</span> <span class="value">Zamboanga del Sur School of Arts and Trades</span></p>
+                    <p><span class="label">Institution:</span> <span class="value">Department of Education</span></p>
+                </div>
+            </div>
+
+            <!-- Work Address Section -->
+            <div class="info-section">
+                <div class="section-title">🏢 Work Address</div>
+                <div class="info-content">
+                    <p>Pulmones Street</p>
+                    <p>Kawit District</p>
+                    <p>Pagadian City, Zamboanga del Sur</p>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="info-section">
+                <div class="section-title">🎓 Education</div>
+                <div class="info-content">
+                    <p><span class="label">Degree:</span> <span class="value">Bachelor of Science in Computer Science</span></p>
+                    
+                </div>
+            </div>
+
+            <!-- Specialization Section -->
+            <div class="info-section">
+                <div class="section-title">⭐ Specialization</div>
+                <div class="info-content">
+                    <p>My field of expertise is in Computer Science and Software Development.</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Richard B. Sungcad. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
